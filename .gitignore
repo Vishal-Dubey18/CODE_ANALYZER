@@ -1,36 +1,17 @@
-# Python / Flask backend
-__pycache__/
-*.py[cod]
-*.sqlite3
-instance/
-.env
-env/
-ENV/
+# Ignore Python environment and Flask files
 venv/
-*.log
-*.egg-info/
-dist/
-build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
 
-# Node.js / React frontend
-node_modules/
-build/
-dist/
-*.log
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Ignore React build files
+code-analyzer-frontend/node_modules/
+code-analyzer-frontend/.env
+code-analyzer-frontend/build/
 
-# IDE and OS files
+# Ignore VS Code and system files
 .vscode/
 .DS_Store
 Thumbs.db
-
-# General
-*.bak
-*.swp
-*.tmp
-
-# Git
-.git/
